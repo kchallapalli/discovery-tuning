@@ -36,21 +36,14 @@ initialize a clean virtualenv:
  user account priviledges should be enough for to try out these 
  scripts)
 
-2. Depending on which service(s) you wish to try out, provision a
- [Retrieve And Rank](https://console.bluemix.net/catalog/services/retrieve-and-rank?env_id=ibm:yp:eu-gb)
-  and/or [Discovery](https://console.bluemix.net/catalog/services/discovery?env_id=ibm:yp:eu-gb)
-   service from bluemix. Alternatively, you can use the [cloud foundary 
+2. Provision a [Discovery](https://console.bluemix.net/catalog/services/discovery?env_id=ibm:yp:eu-gb)
+   service from IBM Cloud. Alternatively, you can use the [cloud foundary 
    tools](https://github.com/cloudfoundry/cli#downloads) 
    to provision services using command line utilities.
 
 3. Edit the `config/config.ini` file with your credentials for
   one or more services. Should look something like this:
   ```
-[RetrieveAndRank]
-# Credentials from Bluemix
-user=7eeeee-30000-4eee-beee-92313faea
-password=QQQQQQQQQy
-
 [Discovery]
 user=7eeeee-3012310-4eee-beee-92313faea
 password=QQQQQQQ123
