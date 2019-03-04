@@ -1,7 +1,7 @@
-# Retrieve and Rank (and Discovery) Experimental Tuning Scripts
+# Discovery Experimental Tuning Scripts
 
 This repository contains helper scripts and examples that demonstrate
-* how to use the `Retrieve And Rank` and `Discovery` watson services
+* how to use the  `Discovery` watson service
 * how to evaluate the quality of retrieval performance with your own
   data
 
@@ -11,13 +11,11 @@ This is meant for users who might want to use the APIs to manage
   code and the services take place using the [python client libraries](https://github.com/watson-developer-cloud/python-sdk)
   provided by IBM.
 
-For more information about `Retrieve And Rank`, see the [detailed documentation](https://www.ibm.com/watson/developercloud/doc/retrieve-rank/index.html).
-
 For more information about `Discovery`, see the [detailed documentation](https://www.ibm.com/watson/developercloud/doc/discovery/index.html).
 
 # Getting Started
 ## 0. Clone the repository
-`git clone git@github.com:rchaks/retrieve-and-rank-tuning.git`
+`git clone git@github.com:kchallapalli/discovery-tuning.git`
 
 ## 1. Setup Python Environment
 1. Ensure installation of [Python3.5](https://www.python.org/downloads/release/python-353/)
