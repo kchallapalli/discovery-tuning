@@ -30,9 +30,9 @@ initialize a clean virtualenv:
     - `virtualenv {location of virtualenv}`
     - `source {location of virtualenv}/bin/activate`
 
-## 2. Get Watson Credentials from Bluemix
-1. Ensure that you have a [Bluemix account](https://console.ng.bluemix.net/registration/): 
- You will use Bluemix to provision Watson services (even the free-tier 
+## 2. Get Watson Credentials from IBM Cloud
+1. Ensure that you have a [IBM Cloud account](https://console.ng.bluemix.net/registration/): 
+ You will use IBM Cloud to provision Watson services (even the free-tier 
  user account priviledges should be enough for to try out these 
  scripts)
 
@@ -58,7 +58,7 @@ from inside the main directory.
 2. If you want to test that the scripts are working as expected, you
 can also kick off the unit tests by running: `py.test tests`. 
 > **Warning:** These unit tests will use your credentials to actually
-call bluemix.  If unit tests are interrupted before completion, 
+call IBM Cloud.  If unit tests are interrupted before completion, 
 they may leave data on 'UnitTest' clusters/collections/rankers around.
  And the tests take a loooong time to execute on account of 
  having to reach out to the watson services.
